@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    background: rgb(136, 200, 202);
+    height: 900px;
+    width: 900px;
+    margin: 50px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .card {
+    height: 200px;
+    width: 200px;
+    margin: 9px;
+}
+
+.front {
+    background: black;
+    color: white;
+}
+
+.back {
+    background: white;
+    color: black;
+}
+
+.back img {
+    height: 200px;
+    width: 200px;
+}
